@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-course",
+  "version": "1.0.0",
+  "description": "NextJsProyect",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianfcruzm/nextjs.git"
+  },
+  "author": "CristianCruzMoreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianfcruzm/nextjs/issues"
+  },
+  "homepage": "https://github.com/cristianfcruzm/nextjs#readme",
+  "dependencies": {
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "@types/react": "^18.0.18",
+    "typescript": "^4.8.2"
+  }
+}
