@@ -39,7 +39,7 @@ const Footer = () => (
             <Header as="h4">Hecho para</Header>
             <p>
               <a href="https://platzi.com/">Platzi y su curso de Next.JS</a> de
-              Platzi dictado por{' '}
+              Platzi {' '}
               <a href="https://www.linkedin.com/in/cristian-ferney-cruz-moreno-1b813a125/">Modificado por Cristian Cruz</a>
             </p>
             <List horizontal style={{ display: 'flex' }}>
