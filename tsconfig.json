@@ -2,9 +2,13 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@database": [
-        "database/db.ts"
-      ]
+      "@database": ["database/db.ts"],
+      "@components/*": ["components/*"],
+      "@about/*": ["pages/about/*"],
+      "@product/*": ["pages/product/*"],
+      "@style": ["global.css"],
+      "@store/*": ["store/*"],
+      "@cors": ["cors-middleware.ts"],
     },
     "target": "es6",
     "lib": [
@@ -22,7 +26,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
   "exclude": [
     "node_modules"
