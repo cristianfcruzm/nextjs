@@ -1,16 +1,16 @@
 const data: Record<TProductId, TProduct> = {
   '2zd33b8c': {
-    name: 'Maluma Hass Avocado',
+    name: 'Aguacate Maluma',
     id: '2zd33b8c',
     sku: 'NUR72KCM',
-    price: 1.15,
+    price: 3400,
     image: '/images/maluma.jpg',
     attributes: {
       description:
-        'A relatively new cultivar, it was, the pretty boy baby, discovered in South Africa in the early 1990s by Mr. A.G. (Dries) Joubert. Maluma Babyy. It is a chance seedling of unknown parentage',
+        'es una variedad comercial de aguacate desarrollada en Sudáfrica. Se comercializa simplemente como Maluma, pero a veces también como Maluma Hass por su similitud con la conocida variedad Hass. Su nombre proviene de la granja Maluma, propiedad del agricultor sudafricano Sr. Dries Joubert en Levubu, Limpopo.',
       shape: 'Oval',
       hardiness: '1 °C',
-      taste: 'Catchy, is an avocado',
+      taste: 'Pegadizo, es un aguacate',
     },
   },
   '6trfgkkj': {

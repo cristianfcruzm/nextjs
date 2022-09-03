@@ -1,4 +1,4 @@
-import { AppProps } from "next/app";
+import { AppProps } from 'next/app'
 import 'semantic-ui-css/semantic.min.css'
 import CartProvider from '@store/Cart'
 
@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <CartProvider>
       <Component {...pageProps} />
     </CartProvider>
-  );
+  )
 }
 
 // Only uncomment this method if you have blocking data requirements for
@@ -22,4 +22,4 @@ function MyApp({ Component, pageProps }: AppProps) {
 //   return { ...appProps }
 // }
 
-export default MyApp;
+export default MyApp
